@@ -1,0 +1,282 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOoEBliqmyLymCI0TKiM4K9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/kavyavenkat999/introduction-to-python/blob/main/def.\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "3FkrWABMqwcC"
+      },
+      "outputs": [],
+      "source": [
+        "def kavya():\n",
+        "  print(\"uwddkjbcallijkfkhadithyafugmariawuefwiurue2joycewhhdgjwheb\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "kavya()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "n42XMR1ItUz8",
+        "outputId": "7507d06e-b2fc-4d07-a7e2-5f2865baa889"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "uwddkjbcallijkfkhadithyafugmariawuefwiurue2joycewhhdgjwheb\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def kavya(x,y):\n",
+        "  z=x+y\n",
+        "  print(\"result=\",z)"
+      ],
+      "metadata": {
+        "id": "ZksxYOr-tfPT"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "kavya(5,6)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Rx1pa0lXvEvE",
+        "outputId": "a7a6281c-e4ae-45cd-eab8-117e5a761587"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "result= 11\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "KTI-MFOOvMrR"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def kavya(x,y):\n",
+        "  z=x*y\n",
+        "  print(\"result=\",z)"
+      ],
+      "metadata": {
+        "id": "FtVQqd04vRSi"
+      },
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def kavya(salary):\n",
+        "  if salary >250000:\n",
+        "    print(\"you are taxable\")\n",
+        "  else:\n",
+        "    print(\"you are not taxable\")"
+      ],
+      "metadata": {
+        "id": "qRwLMvwyvY5R"
+      },
+      "execution_count": 14,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "salary=int(input(\"enter a salary\"))\n",
+        "kavya(salary)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bt0aKoAKxZWl",
+        "outputId": "e57a3ed3-0588-4aee-c0e5-33d298a851b8"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a salary100000\n",
+            "you are not taxable\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=int(input(\"enter a number\"))\n",
+        "kavya(x)\n",
+        "  \n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dMLX9LhYzFlR",
+        "outputId": "fae80e35-170b-42d3-a44b-17b27f34d59a"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number15\n",
+            "you are not taxable\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def kavya(x):\n",
+        "  k=0\n",
+        "  for a in range(1,x):\n",
+        "    k=k+a\n",
+        "  print(k)\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "Op-g5OhB5MtR"
+      },
+      "execution_count": 23,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "kavya(10)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5ut0LbBg7xTJ",
+        "outputId": "3feb30e4-0efd-4a27-b7c7-42d7416d66e4"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "45\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def add(x,y):\n",
+        "  print(x+y)\n",
+        "def sub(x,y):\n",
+        "  print(x-y)"
+      ],
+      "metadata": {
+        "id": "FAozYG3t8pAV"
+      },
+      "execution_count": 25,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=int(input(\"enter a number\"))\n",
+        "y=int(input(\"enter a number\"))\n",
+        "add(x,y)\n",
+        "sub(x,y)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XzD3jqZE9MVM",
+        "outputId": "c05c4f07-7325-431d-e4ca-afcad17a934e"
+      },
+      "execution_count": 32,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter a number5\n",
+            "enter a number0\n",
+            "5\n",
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "1"
+      ],
+      "metadata": {
+        "id": "-TbHY3r7-Gjg"
+      },
+      "execution_count": 30,
+      "outputs": []
+    }
+  ]
+}
